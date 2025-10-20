@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="landing-page.css">
+    
+</head>
+<body>
+    <!-----------------------Header--------------------------->
+    <header id="header">
+        <h1 class="logo">TechZone</h1>
+        <nav>
+            <ul class="nav-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <!--------------------Hero section------------------>
+    <section id="home" class="hero">
+        <h2>Innovative Tech Solutions</h2>
+        <p>We build modern web applications that power your buisness</p>
+        <button class="cta-btn">Get Started</button>
+    </section>
+
+    <!----------------------About section------------------------------>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate team of developers who love building web technologies that make life easier</p>
+    </section>
+    
+    <!-------------------------Services Section-------------------------->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-boxes">
+            <a href="#"><div class="box">
+                <h3>Web Design</h3>
+                <p>Modern and responsive designs for all devices</p>
+            </div></a>
+            <a href="#"><div class="box">
+                <h3>Web Development</h3>
+                <p>Powerful websites built with HTML, CSS and Javascript</p>
+            </div></a>
+            <a href="#"><div class="box">
+                <h3>SEO Optimization</h3>
+                <p>Improve your visibility and reach the right audience</p>
+            </div></a>
+        </div>
+    </section>
+
+    <!--------------------------Contact Section----------------------->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us today</p>
+        <form>
+            <label for="name">Name
+                <input type="text" id="name" placeholder="Your name" required>
+            </label><br><br>
+            <label for="email">Email
+                <input type="email" id="email" placeholder="Email" required>
+            </label><br><br>
+            <label for="textarea">Subject
+            <textarea name="" id="" cols="30" rows="3" required></textarea>
+            </label><br>
+            <button class="cta-btn">Send Message</button>
+        </form>
+        
+    </section>
+
+    <!---------------------Footer----------------->
+    <footer>
+        <p>&copy; 2025 TechZone. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
